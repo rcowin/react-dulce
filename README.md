@@ -1,5 +1,6 @@
 # react-dulce
 =========
+
 A small library that supports creation of lightweight react components to handle things like conditions in a way that adds a lightweight dsl to the tags.
 
 This initial release has a single createConditionals function to create conditional components in a react render function.
@@ -7,13 +8,14 @@ This initial release has a single createConditionals function to create conditio
 ## Installation
 
   `npm install react-dulce -S`
+  
   or
+  
   `yarn add react-dulce -S`
 
 ## Usage
 
   import { createConditionals } from import 'react-dulce';
-
 
   const function Song( { music } ) {
 

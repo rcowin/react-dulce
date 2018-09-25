@@ -1,6 +1,6 @@
 {
   "name": "react-dulce",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Domain ultra lightweight components for React",
   "main": "./distribution/index.js",
   "repository": {
@@ -22,7 +22,6 @@
   "scripts": {
     "test": "NODE_ENV=test jest",
     "build": "babel src  --out-dir distribution",
-    "publish": "babel-cli --preset xxx",
     "prepublish": "yarn build"
   },
   "devDependencies": {
