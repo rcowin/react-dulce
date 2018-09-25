@@ -1,5 +1,4 @@
 # react-dulce
-=========
 
 A small library that supports creation of lightweight react components to handle things like conditions in a way that adds a lightweight dsl to the tags.
 
