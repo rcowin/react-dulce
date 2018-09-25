@@ -6,7 +6,7 @@ This initial release has a single createConditionals function to create conditio
 
 ## Installation
 
-  `npm install react-dulce -S`
+  `npm i react-dulce`
   
   or
   
