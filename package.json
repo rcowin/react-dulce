@@ -1,0 +1,39 @@
+{
+  "name": "react-dulce",
+  "version": "0.1.0",
+  "description": "Domain ultra lightweight components for React",
+  "main": "./distribution/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcowin/react-dulce.git"
+  },
+  "keywords": [
+    "react",
+    "lightweight",
+    "conditionals",
+    "dsl"
+  ],
+  "author": "Richard Cowin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rcowin/react-dulce/issues"
+  },
+  "homepage": "https://github.com/rcowin/react-dulce#readme",
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "build": "babel src  --out-dir distribution",
+    "publish": "babel-cli --preset xxx",
+    "prepublish": "yarn build"
+  },
+  "devDependencies": {
+    "babel-cli": "6",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "6",
+    "babel-preset-jest": "^23.2.0",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.12.1"
+  }
+}
