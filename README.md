@@ -18,7 +18,7 @@ The intent of this package was to help readability of multiline conditionalss an
   
 
   ```bash
-  yarn add react-dulce -S
+  yarn add react-dulce
   ```
 
 ## Usage
