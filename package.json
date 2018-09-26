@@ -1,6 +1,6 @@
 {
   "name": "react-dulce",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Domain ultra lightweight components for React",
   "main": "./distribution/index.js",
   "repository": {
