@@ -30,8 +30,8 @@ The intent of this package was to help readability of multiline conditionalss an
     
     //You can use 'If', 'When', or any valid component name instead of 'Is'.
     var Is = createConditionals({
-      playing = music.isPlaying,
-      repeating = music.isRepeating
+      playing: music.isPlaying,
+      repeating: music.isRepeating
     });
 
     return (
