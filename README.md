@@ -10,19 +10,24 @@ The intent of this package was to help readability of multiline conditionalss an
 
 ## Installation
 
-  `npm i react-dulce`
+  ```bash
+  npm i react-dulce
+  ```
   
   or
   
 
-  `yarn add react-dulce -S`
+  ```bash
+  yarn add react-dulce -S
+  ```
 
 ## Usage
 
+  ```jsx
   import { createConditionals } from import 'react-dulce';
 
   const function Song( { music } ) {
-
+    
     //You can use 'If', 'When', or any valid component name instead of 'Is'.
     var Is = createConditionals({
       playing = music.isPlaying,
@@ -45,8 +50,6 @@ The intent of this package was to help readability of multiline conditionalss an
           <RepeatButton/>
         </Is.not.repeating>
       </div>
-
-  
-  
-
-
+    )
+  }
+  ```
