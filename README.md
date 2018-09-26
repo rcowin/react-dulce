@@ -4,12 +4,17 @@ A small library that supports creation of lightweight react components to handle
 
 This initial release has a single createConditionals function to create conditional components in a react render function.
 
+## Why
+
+The intent of this package was to help readability of multiline conditionalss and other javascript constructs in jsx code. The goal was to pull the domain information out to the tag/component name in a way that POCs could not. The Usage section should help clarify this
+
 ## Installation
 
   `npm i react-dulce`
   
   or
   
+
   `yarn add react-dulce -S`
 
 ## Usage
