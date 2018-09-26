@@ -6,7 +6,7 @@ This initial release has a single `createConditionals` function to create condit
 
 ## Why
 
-The intent of this package was to help readability of multiline conditionals and others javascript constructs in jsx code. The goal was to pull the domain information out to the tag/component name in a way that POCs could not. The Usage section should help clarify this
+The intent of this package was to help readability of multiline conditionals and other javascript constructs in jsx code. The goal was to pull the domain information out to the tag/component name in a way that POCs could not. The Usage section should help clarify this
 
 ## Installation
 
