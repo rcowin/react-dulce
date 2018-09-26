@@ -24,7 +24,7 @@ The intent of this package was to help readability of multiline conditionalss an
 ## Usage
 
   ```jsx
-  import { createConditionals } from import 'react-dulce';
+  import { createConditionals } from 'react-dulce';
 
   const function Song( { music } ) {
     
